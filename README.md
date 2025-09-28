@@ -1,21 +1,7 @@
 
 
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Myntra Data Query Agent Documentation</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
-        h1, h2, h3 { color: #333; }
-        code { background-color: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
-        pre { background-color: #f4f4f4; padding: 10px; border-left: 5px solid #ccc; overflow-x: auto; }
-        ul { list-style-type: disc; margin-left: 20px; }
-        .placeholder { border: 1px dashed #ccc; padding: 10px; text-align: center; color: #666; }
-    </style>
-</head>
-<body>
+
 
 <h1>Myntra Data Query Agent Documentation</h1>
 
