@@ -145,44 +145,23 @@ run_mini_agent()</code></pre>
     <li><strong>Loop</strong>: Continues until 'exit'.</li>
 </ul>
 
-<div class="placeholder">Placeholder for Flowchart Screenshot: Paste your rendered Mermaid diagram or a custom image here.</div>
 
-<h2>Example Queries and Screenshots</h2>
-
-<p>This section includes example queries with placeholders for screenshots. Paste your screenshots (e.g., from Colab output) here.</p>
 
 <h3>Example 1: "What are the top 5 brands with the most products listed?"</h3>
 <p>- Expected SQL: <code>SELECT Brand, COUNT(Product_Id) AS total_products FROM products GROUP BY Brand ORDER BY total_products DESC LIMIT 5;</code><br>
 - Sample Insights: Summarizes top brands (e.g., U.S. Polo Assn., Nike).</p>
 
-<div class="placeholder">Screenshot Placeholder: Paste screenshot of Colab output here (e.g., Generated SQL and Insights).</div>
+
 
 <h3>Example 2: "What is the average Sale_Price for products in the 'Shirts' category?"</h3>
 <p>- Expected SQL: Involves filtering on <code>Sub_Category_3 = 'Shirts'</code>.</p>
 
-<div class="placeholder">Screenshot Placeholder: Paste screenshot here.</div>
 
 <h3>Example 3: "Which products have an Average_Rating above 4 and Discount_Percentage > 50?"</h3>
 <p>- Expected SQL: Uses <code>WHERE</code> clauses on ratings and discounts.</p>
 
-<div class="placeholder">Screenshot Placeholder: Paste screenshot here.</div>
 
-<div class="placeholder">Add More Examples: Leave space here for additional queries and screenshots.</div>
 
-<h2>Troubleshooting and Extensions</h2>
-
-<ul>
-    <li><strong>Common Issues</strong>: API key errors (AuthenticationError) – Ensure valid OpenAI key. Column mismatches – Check schema in Cell 3.</li>
-    <li><strong>Extensions</strong>:
-        <ul>
-            <li>Add vector search for text RAG on <code>Product_Description</code> using SentenceTransformers/FAISS (not included in base code).</li>
-            <li>Integrate Matplotlib for visualizations (e.g., price distribution plots).</li>
-            <li>Handle multi-step queries by enhancing the agent loop.</li>
-        </ul>
-    </li>
-</ul>
-
-<p>For questions or updates, refer to the original conversation or modify the code in Colab.</p>
 
 <p><strong>End of Documentation</strong></p>
 
