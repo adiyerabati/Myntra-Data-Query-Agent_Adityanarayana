@@ -1,4 +1,4 @@
-# Myntra Data-Query-Agent Adityanarayana
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -19,9 +19,7 @@
 
 <h1>Myntra Data Query Agent Documentation</h1>
 
-<p><strong>Version:</strong> 1.0<br>
-<strong>Date:</strong> September 28, 2025<br>
-<strong>Author:</strong> Grok (built by xAI)<br>
+
 <strong>Description:</strong> This document provides an overview of the Myntra Data Query Agent (MDQA), a custom mini agent for analyzing the Myntra e-commerce product dataset. It includes definitions of key concepts, code details, a flow diagram, and placeholders for screenshots of example queries.</p>
 
 <p>This documentation is provided in HTML format for easy viewing. To convert to .doc:<br>
